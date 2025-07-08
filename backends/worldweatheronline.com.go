@@ -73,8 +73,8 @@ type wwoConfig struct {
 }
 
 const (
-	wwoSuri = "https://api.worldweatheronline.com/free/v2/search.ashx?"
-	wwoWuri = "https://api.worldweatheronline.com/free/v2/weather.ashx?"
+	wwoSuri = "https://api.worldweatheronline.com/premium/v1/search.ashx?"
+	wwoWuri = "https://api.worldweatheronline.com/premium/v1/weather.ashx?"
 )
 
 func wwoParseCond(cond wwoCond, date time.Time) (ret iface.Cond) {
